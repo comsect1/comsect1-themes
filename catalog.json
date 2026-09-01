@@ -33,6 +33,62 @@
       "tokens": { "canvas": "#f0d4c6", "sidebar": "#f5e2d8", "workspace": "#fbeee7", "surface": "#fbeee7", "raised": "#f0d0be", "text": "#3a241b", "muted": "#7a584a", "line": "#e07b2e", "accent": "#ed6c00", "accentSecondary": "#2e7d32", "onAccent": "#ffffff", "success": "#2e7d32", "warning": "#995000", "failure": "#b12d00", "focus": "#71351c" }
     },
     {
+      "id": "pitch",
+      "label": "Pitch",
+      "brightness": "light",
+      "swatches": ["#ffb38a", "#fff8f2", "#f07f68"],
+      "tokens": { "canvas": "#ffe0cd", "sidebar": "#ffc9aa", "workspace": "#fff8f2", "surface": "#ffffff", "raised": "#ffd7c2", "text": "#4b3d38", "muted": "#7b655d", "line": "#d99a7c", "accent": "#f07f68", "accentSecondary": "#ffb38a", "onAccent": "#ffffff", "success": "#58855c", "warning": "#9a5c23", "failure": "#ad4850", "focus": "#8c4438" }
+    },
+    {
+      "id": "melon",
+      "label": "Melon",
+      "brightness": "light",
+      "swatches": ["#c9e96e", "#fffef5", "#8ebd55"],
+      "tokens": { "canvas": "#edf7c8", "sidebar": "#dcefa1", "workspace": "#fffef5", "surface": "#ffffff", "raised": "#e5f2bd", "text": "#3f4938", "muted": "#69745e", "line": "#accb70", "accent": "#9dcc54", "accentSecondary": "#f2c86b", "onAccent": "#29301f", "success": "#588d45", "warning": "#8b6a20", "failure": "#a34c4c", "focus": "#52752d" }
+    },
+    {
+      "id": "water-melon",
+      "label": "Water-melon",
+      "brightness": "light",
+      "swatches": ["#f05b68", "#fffafa", "#55a565"],
+      "tokens": { "canvas": "#ffe1e4", "sidebar": "#ffcbd0", "workspace": "#fffafa", "surface": "#ffffff", "raised": "#f6d7d9", "text": "#443d3e", "muted": "#75686a", "line": "#d79a9f", "accent": "#e84f5d", "accentSecondary": "#55a565", "onAccent": "#ffffff", "success": "#3f864f", "warning": "#9b681e", "failure": "#b63243", "focus": "#8e2936" }
+    },
+    {
+      "id": "sphaire",
+      "label": "Sphaire",
+      "brightness": "dark",
+      "swatches": ["#174ea6", "#eaf3ff", "#64a7ff"],
+      "tokens": { "canvas": "#0d1b33", "sidebar": "#102443", "workspace": "#0d1b33", "surface": "#172d50", "raised": "#21416e", "text": "#eef5ff", "muted": "#a8bad2", "line": "#3c6495", "accent": "#64a7ff", "accentSecondary": "#9ec8ff", "onAccent": "#0b1b32", "success": "#72c69b", "warning": "#e5bb68", "failure": "#ed7f8b", "focus": "#a8d0ff" }
+    },
+    {
+      "id": "emerald",
+      "label": "Emerald",
+      "brightness": "dark",
+      "swatches": ["#087f5b", "#e8fff5", "#43d19e"],
+      "tokens": { "canvas": "#081f1a", "sidebar": "#0b2a22", "workspace": "#081f1a", "surface": "#10382e", "raised": "#175044", "text": "#ebfff7", "muted": "#a1c7b8", "line": "#2d7963", "accent": "#43d19e", "accentSecondary": "#8de3c2", "onAccent": "#08261e", "success": "#43d19e", "warning": "#e1ba62", "failure": "#ee7b83", "focus": "#8de3c2" }
+    },
+    {
+      "id": "ruby",
+      "label": "Ruby",
+      "brightness": "dark",
+      "swatches": ["#9f1239", "#fff1f4", "#f05479"],
+      "tokens": { "canvas": "#260b14", "sidebar": "#35101c", "workspace": "#260b14", "surface": "#461526", "raised": "#632039", "text": "#fff2f5", "muted": "#d1a5b0", "line": "#8a3850", "accent": "#f05479", "accentSecondary": "#ff9bb2", "onAccent": "#ffffff", "success": "#74c993", "warning": "#e5b768", "failure": "#ff7894", "focus": "#ff9bb2" }
+    },
+    {
+      "id": "diamond",
+      "label": "Diamond",
+      "brightness": "light",
+      "swatches": ["#d8f3ff", "#ffffff", "#8fc9e3"],
+      "tokens": { "canvas": "#eaf8fe", "sidebar": "#d8f3ff", "workspace": "#fbfeff", "surface": "#ffffff", "raised": "#e4f4fa", "text": "#39484f", "muted": "#687981", "line": "#a9cbd9", "accent": "#5aa9cb", "accentSecondary": "#a7dcee", "onAccent": "#ffffff", "success": "#4f9278", "warning": "#927020", "failure": "#a64f5d", "focus": "#387b99" }
+    },
+    {
+      "id": "perl",
+      "label": "Perl",
+      "brightness": "light",
+      "swatches": ["#eee9df", "#ffffff", "#c8b58d"],
+      "tokens": { "canvas": "#f3f0ea", "sidebar": "#e8e3da", "workspace": "#fcfbf8", "surface": "#ffffff", "raised": "#ede8df", "text": "#494743", "muted": "#74706a", "line": "#bdb5a7", "accent": "#a58d62", "accentSecondary": "#d8c8a7", "onAccent": "#ffffff", "success": "#66836b", "warning": "#8e6d2f", "failure": "#9e5558", "focus": "#705d3e" }
+    },
+    {
       "id": "dalbit",
       "label": "Dalbit",
       "brightness": "dark",
