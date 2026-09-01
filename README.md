@@ -12,8 +12,10 @@ identifier that no longer exists falls back to the consumer's one compiled
 neutral theme.
 
 Themes may be added or removed by editing `catalog.json`; consumers must not
-hardcode the catalog. The initial palettes consolidate the theme definitions
-previously maintained in Hatbit Presentation and add the Lemon palette.
+hardcode the catalog. The maintained set currently includes Lemon, Hatbit,
+Pitch, Melon, Water-melon, Sphaire, Emerald, Ruby, Diamond, Perl, Dalbit,
+VSCode Dark, VSCode White and Windows 98. The user-facing spellings are catalog
+data and consumers must preserve them.
 
 ## Semantic roles
 
