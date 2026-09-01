@@ -1,0 +1,64 @@
+{
+  "schema": "gantry.ui.themes",
+  "defaultTheme": "lemon",
+  "themes": [
+    {
+      "id": "lemon",
+      "label": "Lemon",
+      "brightness": "light",
+      "swatches": ["#f6c945", "#ffffff", "#f2a36f"],
+      "tokens": {
+        "canvas": "#fff7cf",
+        "sidebar": "#ffe9a8",
+        "workspace": "#fffdf2",
+        "surface": "#ffffff",
+        "raised": "#fff0c2",
+        "text": "#45443f",
+        "muted": "#74716a",
+        "line": "#d8bd69",
+        "accent": "#f6c945",
+        "accentSecondary": "#f2a36f",
+        "onAccent": "#3e3d38",
+        "success": "#6f8f4e",
+        "warning": "#a66c1d",
+        "failure": "#b65353",
+        "focus": "#7b6517"
+      }
+    },
+    {
+      "id": "hatbit",
+      "label": "Hatbit",
+      "brightness": "light",
+      "swatches": ["#f0d4c6", "#fbeee7", "#ed6c00"],
+      "tokens": { "canvas": "#f0d4c6", "sidebar": "#f5e2d8", "workspace": "#fbeee7", "surface": "#fbeee7", "raised": "#f0d0be", "text": "#3a241b", "muted": "#7a584a", "line": "#e07b2e", "accent": "#ed6c00", "accentSecondary": "#2e7d32", "onAccent": "#ffffff", "success": "#2e7d32", "warning": "#995000", "failure": "#b12d00", "focus": "#71351c" }
+    },
+    {
+      "id": "dalbit",
+      "label": "Dalbit",
+      "brightness": "dark",
+      "swatches": ["#11162e", "#1a2348", "#f2c94c"],
+      "tokens": { "canvas": "#11162e", "sidebar": "#0d1228", "workspace": "#11162e", "surface": "#1a2348", "raised": "#2b376c", "text": "#e7eaf6", "muted": "#a7afd2", "line": "#3b4684", "accent": "#f2c94c", "accentSecondary": "#98c379", "onAccent": "#11162e", "success": "#98c379", "warning": "#e5c07b", "failure": "#e06c75", "focus": "#f2c94c" }
+    },
+    {
+      "id": "vscode-dark",
+      "label": "VSCode Dark",
+      "brightness": "dark",
+      "swatches": ["#1e1e1e", "#252526", "#007acc"],
+      "tokens": { "canvas": "#1e1e1e", "sidebar": "#181818", "workspace": "#1e1e1e", "surface": "#252526", "raised": "#333333", "text": "#d4d4d4", "muted": "#aeb4b7", "line": "#505050", "accent": "#007acc", "accentSecondary": "#4fc1ff", "onAccent": "#ffffff", "success": "#78b95f", "warning": "#ce9178", "failure": "#e06c75", "focus": "#4fc1ff" }
+    },
+    {
+      "id": "vscode-white",
+      "label": "VSCode White",
+      "brightness": "light",
+      "swatches": ["#f4f6f8", "#ffffff", "#205b57"],
+      "tokens": { "canvas": "#f4f6f8", "sidebar": "#eef2f1", "workspace": "#ffffff", "surface": "#ffffff", "raised": "#eaf1ef", "text": "#142524", "muted": "#60706e", "line": "#d7e1df", "accent": "#205b57", "accentSecondary": "#247a4d", "onAccent": "#ffffff", "success": "#247a4d", "warning": "#8a4b22", "failure": "#8a3a2b", "focus": "#205b57" }
+    },
+    {
+      "id": "windows98",
+      "label": "Windows 98",
+      "brightness": "light",
+      "swatches": ["#c0c0c0", "#ffffff", "#000080"],
+      "tokens": { "canvas": "#c0c0c0", "sidebar": "#d4d0c8", "workspace": "#c0c0c0", "surface": "#d4d0c8", "raised": "#ffffff", "text": "#000000", "muted": "#3f3f3f", "line": "#808080", "accent": "#000080", "accentSecondary": "#006000", "onAccent": "#ffffff", "success": "#006000", "warning": "#7a3d00", "failure": "#800000", "focus": "#000000" }
+    }
+  ]
+}

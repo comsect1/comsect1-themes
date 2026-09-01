@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/comsect1/comsect1-themes/schema/theme-catalog.schema.json",
+  "title": "Comsect1 semantic theme catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "defaultTheme", "themes"],
+  "properties": {
+    "schema": { "const": "gantry.ui.themes" },
+    "defaultTheme": { "$ref": "#/$defs/id" },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "items": { "$ref": "#/$defs/theme" }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]{0,63}$" },
+    "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+    "theme": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "brightness", "swatches", "tokens"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "label": { "type": "string", "minLength": 1, "maxLength": 96 },
+        "brightness": { "enum": ["light", "dark"] },
+        "swatches": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/color" }
+        },
+        "tokens": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["canvas", "sidebar", "workspace", "surface", "raised", "text", "muted", "line", "accent", "accentSecondary", "onAccent", "success", "warning", "failure", "focus"],
+          "properties": {
+            "canvas": { "$ref": "#/$defs/color" },
+            "sidebar": { "$ref": "#/$defs/color" },
+            "workspace": { "$ref": "#/$defs/color" },
+            "surface": { "$ref": "#/$defs/color" },
+            "raised": { "$ref": "#/$defs/color" },
+            "text": { "$ref": "#/$defs/color" },
+            "muted": { "$ref": "#/$defs/color" },
+            "line": { "$ref": "#/$defs/color" },
+            "accent": { "$ref": "#/$defs/color" },
+            "accentSecondary": { "$ref": "#/$defs/color" },
+            "onAccent": { "$ref": "#/$defs/color" },
+            "success": { "$ref": "#/$defs/color" },
+            "warning": { "$ref": "#/$defs/color" },
+            "failure": { "$ref": "#/$defs/color" },
+            "focus": { "$ref": "#/$defs/color" }
+          }
+        }
+      }
+    }
+  }
+}
