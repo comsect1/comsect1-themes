@@ -15,7 +15,9 @@ Themes may be added or removed by editing `catalog.json`; consumers must not
 hardcode the catalog. The maintained set currently includes Lemon, Hatbit,
 Pitch, Melon, Water-melon, Sphaire, Emerald, Ruby, Diamond, Perl, Dalbit,
 VSCode Dark, VSCode White and Windows 98. The user-facing spellings are catalog
-data and consumers must preserve them.
+data and consumers must preserve them. Every current record is Comsect1-owned
+catalog data; an identifier or label does not create product or customer
+ownership and does not require a custom-layer replacement.
 
 ## Semantic roles
 
@@ -26,3 +28,8 @@ data and consumers must preserve them.
 
 All colors use exact `#rrggbb` notation. Layout, typography, motion and widget
 behavior remain consumer responsibilities.
+
+`accent` and `onAccent` form one inseparable selected/control state. Their WCAG
+relative-luminance contrast ratio must be at least 4.5:1; naming a color
+`onAccent` does not make it readable. Consumers validate this pair and refuse a
+catalog that falls below the threshold.
